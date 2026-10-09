@@ -18,14 +18,17 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="<?= base_url('/') ?>">Home</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+<ul class="navbar-nav ms-auto">
+    <li class="nav-item">
+        <a class="nav-link active" href="<?= base_url('/') ?>">Home</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="<?= base_url('/about') ?>">About</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="<?= base_url('/contact') ?>">Contact</a>
+    </li>
+</ul>
 
     <!-- Main Content -->
     <div class="container mt-5">
